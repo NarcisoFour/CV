@@ -6,8 +6,8 @@ Perfil
 - Avatar
 - Nombre
 - Apellido
-- Fecha de Nacimiento
 - Correo
+- Fecha de Nacimiento
 - Relación
 - Pais
 - Ciudad
