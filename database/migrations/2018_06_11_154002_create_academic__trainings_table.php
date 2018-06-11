@@ -15,6 +15,10 @@ class CreateAcademicTrainingsTable extends Migration
     {
         Schema::create('academic__trainings', function (Blueprint $table) {
             $table->increments('id');
+            $table->string('especialidad');
+            $table->string('centro');
+            $table->date('desde');
+            $table->date('hasta')->nullable();
             $table->timestamps();
         });
     }

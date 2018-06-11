@@ -15,6 +15,10 @@ class CreateCollegeDegreesTable extends Migration
     {
         Schema::create('college__degrees', function (Blueprint $table) {
             $table->increments('id');
+            $table->string('titulo');
+            $table->string('centro');
+            $table->date('desde');
+            $table->date('hasta')->nullable();
             $table->timestamps();
         });
     }

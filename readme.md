@@ -29,7 +29,7 @@ Título Universitario
 - Hasta
 
 Habilidad
-- Titulo
+- Título
 - Nivel
 
 Experiencia Laboral
