@@ -16,17 +16,8 @@ Perfil
 - Facebook
 - YouTube
 
-
 Formación Académica
 - Especialidad
-- Centro
-- Desde
-- Hasta
-- Dirección
-- Teléfono
-
-Formación Académica
-- Título
 - Centro
 - Desde
 - Hasta
@@ -48,3 +39,16 @@ Experiencia Laboral
 - Desde
 - Hasta
 - Carta
+
+## creando migraciones
+
+```
+User
+Academic_Training
+College_Degree
+Ability
+Work_Experience
+```
+
+## Trabajando la API
+
