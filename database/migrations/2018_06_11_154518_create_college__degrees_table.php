@@ -15,6 +15,8 @@ class CreateCollegeDegreesTable extends Migration
     {
         Schema::create('college__degrees', function (Blueprint $table) {
             $table->increments('id');
+            $table->unsignedInteger('user_id');
+            $table->foreign('user_id')->references('id')->on('users');
             $table->string('titulo');
             $table->string('centro');
             $table->date('desde');

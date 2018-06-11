@@ -15,6 +15,8 @@ class CreateAcademicTrainingsTable extends Migration
     {
         Schema::create('academic__trainings', function (Blueprint $table) {
             $table->increments('id');
+            $table->unsignedInteger('user_id');
+            $table->foreign('user_id')->references('id')->on('users');
             $table->string('especialidad');
             $table->string('centro');
             $table->date('desde');

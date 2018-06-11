@@ -15,6 +15,8 @@ class CreateWorkExperiencesTable extends Migration
     {
         Schema::create('work__experiences', function (Blueprint $table) {
             $table->increments('id');
+            $table->unsignedInteger('user_id');
+            $table->foreign('user_id')->references('id')->on('users');
             $table->string('cargo');
             $table->string('centro');
             $table->text('experiencia')->nullable()->default('');
